@@ -1,0 +1,41 @@
+
+
+
+.table td{
+    width: 200px;
+    height: 500px;
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+    background-color: gray;
+    border: 5px solid white;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.table {
+    margin: auto;
+    text-align: center;
+}
+
+#one{
+    background-color: #75DBCD;
+}
+
+#two{
+    background-color: #C9DBBA;
+}
+
+#three{
+    background-color: #DCDBA8;
+}
+
+#four{
+    background-color: #F5CDA7;
+}
+
+#five{
+    background-color: #FAA381;
+}

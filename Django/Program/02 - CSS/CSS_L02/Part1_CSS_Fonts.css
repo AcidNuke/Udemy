@@ -1,0 +1,32 @@
+
+h1 {
+    font-family: 'Bungee', cursive;
+}
+
+p {
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+body {
+    font-size: 20px;
+}
+
+#two {
+    font-size: 1.5em;
+}
+
+p {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Gamja Flower', cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+/*
+https://fonts.google.com/?selection.family=Bungee|Gamja+Flower
+
+*/

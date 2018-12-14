@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML Level 2 Assesment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1>Course Sign Up Page</h1>
+    <p>Please Note: First Name, Last Name, Password, and Email are required</p>
+
+    <form action="Part6_Html_Forms_Selections.html" method="GET">
+        <div>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="name@email.com" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+        </div>
+        <div>
+            <p>Are you over the age of 18?</p>
+            <label for="yes">Yes:</label>
+            <input type="radio" id="yes" name="over18" value="Yes">
+
+            <label for="no">No:</label>
+            <input type="radio" id="no" name="over18">
+        </div>
+        <div>
+            <p>Do you have a Credit Card or Paypal?</p>
+            <select name="paymentType" id="paymentType">
+                <option value="cc">Credit Card</option>
+                <option value="pp">PayPal</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" name="submit" value="Submit Feedback">
+        </div>
+    </form>
+
+</body>
+
+</html>
