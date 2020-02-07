@@ -1,11 +1,10 @@
 <template>
   <div id="app">
-    <div class="navbar has-shadow">
-      <div class="navbar-brand">
-        <div class="navbar-start">
-          <a class="navbar-item">My Company</a>
-        </div>
-
+    <div class="navbar">
+      <div class="navbar-start">
+        <router-link to="/" class="navbar-item">My Company</router-link>
+      </div>
+      <div class="navbar-end">
         <div class="navbar-burger" v-on:click="toggleNav" v-bind:class="{ 'is-active': isActive }">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -76,6 +75,7 @@
     background-color: #383838
     a:hover
       color: gray
+      background-color: #383838
 
   .navbar-start a
     color: white
