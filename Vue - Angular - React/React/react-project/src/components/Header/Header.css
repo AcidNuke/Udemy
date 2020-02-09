@@ -1,0 +1,22 @@
+.navbar {
+  background-color: #383838; }
+
+a:hover {
+  color: gray;
+  background-color: #383838; }
+
+.navbar-start a {
+  color: white;
+  font-weight: bold; }
+
+a.r-item {
+  color: #c1c1c1;
+  padding: 0.5rem 1.75rem; }
+  @media screen and (max-width: 768px) {
+    a.r-item {
+      color: gray; }
+      a.r-item:hover {
+        background-color: rebeccapurple; } }
+
+.navbar-burger {
+  background-color: #C1C1C1; }
