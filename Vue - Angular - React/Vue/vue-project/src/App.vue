@@ -60,6 +60,11 @@
       toggleNav: function () {
         this.isActive = !this.isActive;
       }
+    },
+    watch: {
+      isActive: function (x) {
+        console.log("Is Active changed: " + x);
+      }
     }
   }
 

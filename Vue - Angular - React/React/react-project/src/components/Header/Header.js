@@ -26,19 +26,19 @@ class Header extends Component {
                         <a className="nav-item">My Company</a>
                     </div>
 
-                    <div className={"navbar-end nav-menu " + menuActive}>
-                        <div className={"navbar-burger " + menuActive}>
+                    <div className={"navbar-end nav-burger " + menuActive}>
+                        <div className={"navbar-burger " + menuActive} onClick={this.handleClick}>
                             <span aria-hidden="true"></span>
                             <span aria-hidden="true"></span>
                             <span aria-hidden="true"></span>
                         </div>
 
-                        <Link to="/" className="navbar-item r-item">Home</Link>
-                        <Link to="/faq" className="navbar-item r-item">Features</Link>
-                        <Link to="/faq" className="navbar-item r-item">About</Link>
-                        <Link to="/faq" className="navbar-item r-item">FAQ</Link>
+                        <div className={"navbar-menu" + menuActive}>
+                            <Link to="/" className="navbar-item r-item">Home</Link>
+                            <Link to="/faq" className="navbar-item r-item">Features</Link>
+                            <Link to="/faq" className="navbar-item r-item">About</Link>
+                            <Link to="/faq" className="navbar-item r-item">FAQ</Link>
 
-                        <div className="navbar-menu">
                             <div className="navbar-item">
                                 <p className="control">
                                     <a className="button is-primary is-outlined">

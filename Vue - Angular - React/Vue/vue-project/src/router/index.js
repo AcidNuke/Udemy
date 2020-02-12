@@ -13,7 +13,7 @@ export default new Router({
       component: Home
     },
     {
-      path: '/faq',
+      path: '/Faq',
       name: 'Faq',
       component: Faq
     },
