@@ -1,0 +1,22 @@
+<div class="faq">
+  <div class="container">
+    <section class="section">
+      <h1 class="title">FAQ</h1>
+      <h2 class="subtitle is-4">
+        Duis feugiat, risus quis rhoncus semper, ligula lorem facilisis risus, non varius nunc enim a dui. Donec elit
+        lacus, hendrerit eget tortor quis, efficitur vestibulum lectus. In posuere
+      </h2>
+
+      <div class="columns">
+        <div class="column is-one-third" *ngFor="let faq of (faqs);  let i = index;">
+          <div class="card" *ngIf="i < 10">
+            <div class="card-content">
+              <p class="title">{{faq.title}}</p>
+              <p class="answer">{{faq.body}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
