@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <!--<h1 v-once>{{ title }}</h1>
+    <label>
+        <input type="text" v-on:input="changeTitle">
+    </label>
+    <p>
+        {{ title }} - <a v-bind:href="link">Google</a>
+    </p>
+    <p>
+        {{ myTitle() }}
+    </p>
+    <p>
+        {{ sayHello() }}
+    </p>
+    <hr>
+    <p v-html="finishedLink">
+
+    </p>-->
+    <div id="test">
+        <button v-on:click="increase">Click me</button>
+        <p>{{ counter }}</p>
+        <p v-on:mousemove="updateCoord">Coordinates: {{ x }} / {{ y }}</p>
+    </div>
+</div>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            //title: 'Hello World',
+            //link: 'http://google.com',
+            //finishedLink: '<a href="http://google.com">Google</a>',
+            counter: 0,
+            x: 0,
+            y: 0
+        },
+        methods: {
+            /*changeTitle: function (event) {
+                this.title = event.target.value;
+            },
+            sayHello: function () {
+                return 'Hello there!';
+            },
+            myTitle: function () {
+                return this.title.toUpperCase();
+            },*/
+            increase: function () {
+                this.counter++;
+            },
+            updateCoord: function (event) {
+                this.x = event.clientX;
+                this.y = event.clientY;
+            }
+        }
+    });
+</script>
+</body>
+</html>
