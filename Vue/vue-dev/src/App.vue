@@ -1,20 +1,23 @@
 <template>
   <div id="app">
 <!--    <MyComponent></MyComponent>-->
-    <Section2></Section2>
+<!--    <Section2></Section2>-->
+      <exercise3></exercise3>
   </div>
 </template>
 
 <script>
   //import HelloWorld from './components/HelloWorld.vue'
-  import Section2 from "./components/Section2";
+  //import Section2 from "./components/Section2";
   //import Exercise2 from "./components/Exercise2";
+  import Exercise3 from "./components/Exercise3";
 
 export default {
   name: 'app',
   components: {
     //MyComponent,
-    Section2
+    //Section2,
+    Exercise3
   }
 }
 </script>
