@@ -18,6 +18,7 @@ package-lock.json
 # Dir
 /Resources
 /.idea
+/Downloads
 
 # Created by https://www.gitignore.io/api/node,sass,vuejs,webstorm
 # Edit at https://www.gitignore.io/?templates=node,sass,vuejs,webstorm
